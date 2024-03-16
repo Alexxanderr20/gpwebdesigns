@@ -1,12 +1,71 @@
 * {
-    border-box: none;
+    font-family: 'Roboto', sans-serif;
+    /* border-box: none; */
+    /* background-color: turquoise; */
 }
 
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 10vh;
-    /* background-color: #f1356d; */
+    list-style-type: none;
+    display: block;
+    text-align: right;
+    min-height: 15vh;
     color: white;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+#landing-page {
+    /* margin: auto; */
+    /* text-align: center; */
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+#contact-button {
+    background-color: mediumaquamarine;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#mission-statement {
+    padding: 3rem;
+    text-align: center;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+#mission-text{
+    color: mediumaquamarine;
+}
+
+#mission-paragraph {
+    padding: 3rem;
+    text-align: center;
+    /* background-color: black; */
+    /* color: white; */
+}
+/* #first-header {
+    color: white;
+    padding: 10px;
+    text-align: center;
+} */
+
+
+footer
+{
+    padding: 3rem;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
