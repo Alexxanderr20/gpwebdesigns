@@ -1,0 +1,12 @@
+* {
+    border-box: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    /* background-color: #f1356d; */
+    color: white;
+}
