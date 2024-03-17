@@ -4,12 +4,18 @@
     /* background-color: turquoise; */
 }
 
-.nav-links {
+li {
+    float: right;
     list-style-type: none;
-    display: block;
-    text-align: right;
-    min-height: 15vh;
+}
+
+a{
     color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    list-style-type: none;
+    /* min-height: 5vh; */
 }
 
 /* a {
@@ -19,9 +25,25 @@
 #landing-page {
     /* margin: auto; */
     /* text-align: center; */
+    margin: -1rem;
+    padding: 2rem;
     background-color: black;
     color: white;
     font-size: 1rem;
+}
+
+#website-header {
+    padding: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#contact-div {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 #contact-button {
@@ -64,8 +86,21 @@
 
 footer
 {
+    margin: 2rem;
     padding: 3rem;
     color: white;
     background-color: black;
     text-align: center;
 }
+
+#footer-para {
+    margin: 2rem;
+    padding: 3rem;
+}
+/* .nav-links a {
+    float: none;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+} */
